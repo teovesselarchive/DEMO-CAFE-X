@@ -14,3 +14,6 @@ These are principle references only. No source code, layouts, logos, illustratio
 
 ## Surface and interaction
 Homepage mode: Persuade. Help visitors picture their next cafecito, then discover the menu or order. One short introductory photo reveal; photo hover and tactile buttons; no continuous marquee, scroll hijack, or repeated reveal blocks. Motion respects reduced-motion. Responsive at 320px upward. Contrast, keyboard navigation, menu search, gallery navigation, and actual relative URLs must work.
+
+## Language
+English copy throughout; authentic menu item names remain as supplied by Café X. The user explicitly approved this visual direction, so language edits preserve its styling and composition.

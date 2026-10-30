@@ -15,3 +15,6 @@ Static GitHub Pages deployment at teovesselarchive/DEMO-CAFE-X, main branch root
 
 ## Brand commitments
 User explicitly requests a new, energetic Mexican café identity researched from multiple external references. No Camp Cove or Vessel Archive layout, slogans, decorative X marks, or theme switches. Retain the real Café X logo. Design decisions are delegated; execute the rebuild without another approval round.
+
+## Approved design and language
+The user approved the current look on October 29, 2026. Preserve the layout, palette, typography, imagery, and visual character. All marketing copy, labels, and category headings are in English; retain authentic dish and drink names.

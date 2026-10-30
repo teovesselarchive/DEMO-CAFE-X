@@ -36,7 +36,7 @@ if (search) {
     $$('[data-category]').forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', String(b === button)); });
     filterMenu();
   }));
-  const categoryAliases = {coffee:'Café', bakery:'Panadería', juice:'Jugos', energy:'Energy'};
+  const categoryAliases = {coffee:'Coffee', bakery:'Bakery', juice:'Juices', energy:'Energy'};
   const requested = new URLSearchParams(location.search).get('category');
   const match = categoryAliases[requested];
   if (match) {

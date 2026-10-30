@@ -62,7 +62,7 @@
     "description": "Savory bites inspired by the rich and comforting flavors of Mexico, made fresh to enjoy any time of day"
   },
   {
-    "name": "Panadería",
+    "name": "Bakery",
     "items": [
       {
         "name": "Concha Gigante",
@@ -129,19 +129,19 @@
       },
       {
         "name": "Manteconcha",
-        "description": "Soft, buttery concha filled with rich mantequilla, sweet, fluffy, and comforting",
+        "description": "Soft, buttery concha filled with rich butter, sweet, fluffy, and comforting",
         "price": "$3.00"
       },
       {
         "name": "Puerquito",
-        "description": "Traditional gingerbread-style cookie with warm spices and a soft bite, nostalgic and dulce",
+        "description": "Traditional gingerbread-style cookie with warm spices and a soft bite, nostalgic and sweet",
         "price": "$5.00"
       }
     ],
     "description": "A selection of traditional Mexican pastries, baked to bring warmth and sweetness to every visit"
   },
   {
-    "name": "Café",
+    "name": "Coffee",
     "items": [
       {
         "name": "Caramelo Latte*",
@@ -314,7 +314,7 @@
     "description": "Coffee sourced from Mexico and brewed with intention, honoring the richness of its origins; Enjoy it your way - hot, iced, or blended* - crafted to match every moment"
   },
   {
-    "name": "Jugos",
+    "name": "Juices",
     "items": [
       {
         "name": "Nopal Power",
@@ -363,7 +363,7 @@
     "description": "Freshly pressed juices made from vibrant fruits for a naturally refreshing experience"
   },
   {
-    "name": "Aguas Frescas",
+    "name": "Fresh Drinks",
     "items": [
       {
         "name": "Melón",
@@ -387,7 +387,7 @@
       },
       {
         "name": "Horchata",
-        "description": "House-made horchata with rice, cinnamon, and vanilla, smooth, creamy, y clásica",
+        "description": "House-made horchata with rice, cinnamon, and vanilla, smooth, creamy, and classic",
         "price": "$5.00"
       }
     ],
@@ -413,7 +413,7 @@
       },
       {
         "name": "Mangonada",
-        "description": "Sweet mango blended to perfection, layered with chamoy, Tajín, and limón, sweet, spicy, and addictive",
+        "description": "Sweet mango blended to perfection, layered with chamoy, Tajín, and lime, sweet, spicy, and addictive",
         "price": "$7.99"
       }
     ],
