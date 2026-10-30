@@ -4,7 +4,7 @@ A complete, responsive redesign concept for [hechoencafex.com](https://www.hecho
 
 ## Preview
 
-The ready-to-host website is in `dist/`.
+The ready-to-host website is available in both the repository root and `dist/`. The root copy supports GitHub Pages' default branch publishing.
 
 ```sh
 python3 -m http.server 8080 --directory dist
@@ -47,7 +47,9 @@ Color scheme follows the system with a persistent manual toggle. Motion respects
 
 Upload the contents of `dist/` to any static host. Keep the directory structure intact. Relative paths work at the domain root and under a repository subpath such as `/DEMO-CAFE-X/`.
 
-For GitHub Pages, the included `Publish GitHub Pages` workflow is **manual only**. First select **GitHub Actions** as the Pages source in repository Settings, then run that workflow. The private repository may require a GitHub plan that supports Pages. Running it may create a publicly accessible demo; this repository upload does not itself deploy a website.
+For GitHub Pages, choose **Deploy from a branch**, **main**, and **/(root)** in repository Settings → Pages. The generated root `index.html` loads the redesigned homepage instead of the README, and `.nojekyll` keeps the site static. Once branch publishing is enabled, commits to `main` update the live demo automatically.
+
+Alternatively, select **GitHub Actions** as the Pages source and run the included manual `Publish GitHub Pages` workflow, which publishes `dist/`. Use one publishing mode at a time. The private repository may require a GitHub plan that supports Pages.
 
 For Netlify, use `dist` as the publish directory and leave the build command empty. For other hosts, use their static directory upload or deploy `dist` directly. Configure the host to serve `404.html` with HTTP 404 for unknown routes, rather than sending missing routes to the homepage.
 

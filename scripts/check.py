@@ -26,6 +26,11 @@ for file in OUT.rglob('*.html'):
     if len(parser.ids)!=len(set(parser.ids)):errors.append(f'{file}: duplicate IDs')
     if 'noindex' not in text:errors.append(f'{file}: demo noindex missing')
     if '{BASE}' in text or '—' in text:errors.append(f'{file}: unresolved template or punctuation')
+    root_file=ROOT/file.relative_to(OUT)
+    if not root_file.exists() or root_file.read_bytes()!=file.read_bytes():
+        errors.append(f'{root_file}: GitHub Pages root output missing or stale')
+    else:
+        Audit(root_file).feed(text)
 for file in set(re.findall(r"['\"]([a-z0-9-]+\.webp)['\"]",(ROOT/'app.js').read_text())):
     if not (OUT/'assets/images'/file).is_file():errors.append(f'Interactive image missing: {file}')
 menu=json.loads((ROOT/'data/menu.json').read_text())
@@ -33,5 +38,6 @@ assert len(menu)==8
 assert sum(len(s['items']) for s in menu)==76
 assert (OUT/'menu/index.html').read_text().count('class="menu-item"')==76
 assert 'Disallow: /' in (OUT/'robots.txt').read_text()
+assert (ROOT/'.nojekyll').exists()
 if errors:raise SystemExit('\n'.join(errors))
-print('PASS: 8 pages, 76 menu items, 8 categories, all local routes/assets, interactive imagery, unique IDs, and demo indexing controls.')
+print('PASS: 8 pages in both publishing locations, 76 menu items, 8 categories, all local routes/assets, interactive imagery, unique IDs, and demo indexing controls.')

@@ -67,4 +67,10 @@ for route,title,fn in pages:
 (OUT/'404.html').write_text('''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Page not found | CAFÉX</title><style>body{margin:0;background:#143c2a;color:#f2f3e7;font-family:Arial,sans-serif;min-height:100dvh;display:grid;place-items:center}main{padding:32px;max-width:750px}p{line-height:1.6;color:#bac9b8}h1{font-size:clamp(48px,9vw,100px);line-height:.95;letter-spacing:-.05em;margin:30px 0}a{display:inline-block;margin-top:25px;background:#cbea75;color:#143c2a;padding:18px 24px;text-decoration:none}a:focus-visible{outline:3px solid #f2f3e7;outline-offset:5px}</style></head><body><main><p>CAFÉX / 404</p><h1>LOST YOUR<br>CAFECITO?</h1><p>This page isn’t on the menu. Let’s get you back to something good.</p><a id="return-home" href="/">Back to Home ↗</a></main><script>if(location.hostname.endsWith('.github.io'))document.getElementById('return-home').href='/DEMO-CAFE-X/';</script></body></html>''')
 (OUT/'robots.txt').write_text('User-agent: *\nDisallow: /\n')
 (OUT/'.nojekyll').touch()
-print(f'Built {len(pages)} pages + 404 in {OUT}')
+# Support GitHub Pages' default main/(root) publishing as well as dist uploads.
+# Shared styles, scripts, fonts, images, and data already live at the root.
+for generated in [*OUT.rglob('*.html'), OUT/'robots.txt', OUT/'.nojekyll']:
+    destination=ROOT/generated.relative_to(OUT)
+    destination.parent.mkdir(parents=True,exist_ok=True)
+    shutil.copy2(generated,destination)
+print(f'Built {len(pages)} pages + 404 in dist and the repository root')
