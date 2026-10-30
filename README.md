@@ -20,7 +20,7 @@ python3 scripts/check.py
 ```
 
 - `scripts/build.py`: shared layout and page content
-- `styles.css`: responsive layout, color themes, typography, and motion
+- `styles.css`: responsive layout, color, typography, and motion
 - `app.js`: menu search, filters, gallery viewer, navigation, and email drafts
 - `data/menu.json`: all 76 menu items, with source-listed prices
 - `assets/`: local images and fonts
@@ -32,7 +32,7 @@ Python 3.9 or newer is sufficient. `npm run build`, `npm run check`, and `npm ru
 
 | Route | Experience |
 | --- | --- |
-| `/` | Brand homepage, interactive favorites, story, community, visit information |
+| `/` | Photographic homepage, category links, concha feature, story, community, visit information |
 | `/ourstory/` | Mexican heritage, coffee origins, drinks, baking, and canned offerings |
 | `/menu/` | 76 items in 8 categories, instant search, accent-insensitive matching, empty state |
 | `/gallery/` | 17 original photographs, keyboard-accessible lightbox |
@@ -41,7 +41,7 @@ Python 3.9 or newer is sufficient. `npm run build`, `npm run check`, and `npm ru
 | `/category/all-products/` | Compatible legacy shop URL |
 | `/404.html` | Custom missing-page screen |
 
-Color scheme follows the system with a persistent manual toggle. Motion respects reduced-motion preferences. Main content and links work without JavaScript.
+One committed café palette; no theme switch. Motion respects reduced-motion preferences. Main content and links work without JavaScript.
 
 ## Hosting
 
@@ -66,10 +66,10 @@ For Netlify, use `dist` as the publish directory and leave the build command emp
 
 Original logo, food and drink photography, and event images come from the supplied Café X website. See `data/asset-sources.json`. Their rights remain with their respective owners; confirm permission before broader production use. The redesign does not claim ownership of Café X’s brand or photos.
 
-Barlow Condensed and DM Sans are distributed under the SIL Open Font License; license texts are included in `assets/fonts/`. Images are compressed as WebP, with small menu thumbnails. Fonts are self-hosted, with no Google Fonts runtime request.
+Fraunces and DM Sans are distributed under the SIL Open Font License; license texts are included in `assets/fonts/`. Images are compressed as WebP, with small menu thumbnails. Fonts are self-hosted, with no Google Fonts runtime request.
 
 ## Design direction
 
-Mexican café identity expressed through deep green, a lively lime accent, bold condensed typography, large original photography, and clear spacing. The source routes, navigation labels, logo, and real offerings are preserved. The redesigned homepage brings menu discovery, community, and visiting information into one complete experience.
+An original Mexican café poster direction: clay red, cream, concha pink, marigold, expressive Fraunces lettering, and Café X’s own food and community photography. See `DESIGN.md` for the outside reference research and decisions. No Vessel Archive or Camp Cove signature elements, theme controls, or agency marks are used on the site.
 
-Design settings: variance 9, motion 6, visual density 4. Motion introduces the hero, reveals sections as they enter view, and acknowledges hover and control states. Native CSS and progressive enhancement keep the experience light.
+The original Café X logo, source routes, complete menu, and real offerings remain intact. Motion is limited to a short hero entrance and purposeful hover responses, with reduced-motion support.

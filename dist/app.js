@@ -3,17 +3,6 @@ const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const appBase = new URL('.', document.currentScript?.src || $('script[src$="app.js"]').src);
 const media = name => new URL(`assets/images/${name}`, appBase).href;
-const themeButton = $('.theme-toggle');
-const isDark = () => document.documentElement.dataset.theme ? document.documentElement.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-function themeLabel() { themeButton.setAttribute('aria-label', `Switch to ${isDark() ? 'light' : 'dark'} theme`); }
-themeLabel();
-themeButton.addEventListener('click', () => {
-  const theme = isDark() ? 'light' : 'dark';
-  document.documentElement.dataset.theme = theme;
-  try { localStorage.setItem('cafex-theme', theme); } catch {}
-  themeLabel();
-});
-matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themeLabel);
 const menuButton = $('.menu-toggle'), nav = $('#navigation');
 function closeMenu() { nav.classList.remove('open'); menuButton.setAttribute('aria-expanded', 'false'); $('span', menuButton).textContent = '+'; }
 menuButton.addEventListener('click', () => {
@@ -23,28 +12,6 @@ menuButton.addEventListener('click', () => {
 document.addEventListener('keydown', event => { if (event.key === 'Escape' && nav.classList.contains('open')) { closeMenu(); menuButton.focus(); } });
 document.addEventListener('click', event => { if (!event.target.closest('.site-header')) closeMenu(); });
 matchMedia('(min-width: 768px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
-
-if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
-  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
-    if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
-  }), { threshold: .08 });
-  $$('.reveal').forEach(el => { el.classList.add('js-reveal'); observer.observe(el); });
-}
-
-const flavorData = {
-  coffee: [['horchata-latte.webp', 'Horchata Latte', 'Espresso meets house horchata. Your new morning ritual.'], ['caf-de-olla.webp', 'Café de Olla', 'Cinnamon, piloncillo, and a taste of home.']],
-  bakery: [['concha-gigante.webp', 'Concha Gigante', 'Big enough to share. Good enough to keep to yourself.'], ['concha-sandwich.webp', 'Concha Sandwich', 'A sweet concha with a delicious filling.']],
-  juice: [['nopal-power.webp', 'Nopal Power', 'Nopal, apple, cucumber, lime, and ginger. Fresh energy.'], ['la-ra-z.webp', 'La Raíz', 'Apple, beets, carrots, orange, and ginger. All the good stuff.']],
-  energy: [['vampiro.webp', 'Vampiro', 'Mango, passionfruit, and pomegranate. Turn up the flavor.'], ['rayo.webp', 'Rayo', 'Blue raspberry and fresh lime. A bright little boost.']]
-};
-$$('[data-flavor]').forEach(button => button.addEventListener('click', () => {
-  $$('[data-flavor]').forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', String(b === button)); });
-  const [first, second] = flavorData[button.dataset.flavor];
-  [['favorite', first], ['second', second]].forEach(([prefix, item]) => {
-    $(`.${prefix}-image`).src = media(item[0]); $(`.${prefix}-image`).alt = item[1];
-    $(`.${prefix}-name`).textContent = item[1]; $(`.${prefix}-description`).textContent = item[2];
-  });
-}));
 
 const search = $('#menu-search');
 let category = 'all';
@@ -69,6 +36,13 @@ if (search) {
     $$('[data-category]').forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', String(b === button)); });
     filterMenu();
   }));
+  const categoryAliases = {coffee:'Café', bakery:'Panadería', juice:'Jugos', energy:'Energy'};
+  const requested = new URLSearchParams(location.search).get('category');
+  const match = categoryAliases[requested];
+  if (match) {
+    const button = $$('[data-category]').find(b => b.dataset.category.toLowerCase().includes(match.toLowerCase()));
+    button?.click();
+  }
   $('.reset-filters').addEventListener('click', () => { search.value = ''; $('[data-category="all"]').click(); search.focus(); });
 }
 
