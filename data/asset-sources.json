@@ -1,0 +1,474 @@
+[
+  {
+    "file": "assets/images/logo.png",
+    "source": "https://static.wixstatic.com/media/4ffd46_631f46f68db94201ae9be259a3937855~mv2.png"
+  },
+  {
+    "file": "assets/images/hero.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_8fcf930a65084350a2e2ad0694a6ba61~mv2.png/v1/fit/w_1800,h_1800,q_85/hero.jpg"
+  },
+  {
+    "file": "assets/images/coffee.webp",
+    "source": "https://static.wixstatic.com/media/11062b_1dff09368f2b4d58993b6bbae567eb0a~mv2.jpg/v1/fit/w_900,h_900,q_85/coffee.jpg"
+  },
+  {
+    "file": "assets/images/juice.webp",
+    "source": "https://static.wixstatic.com/media/7fef4e_b376aec7b19a4519b9ce855535be85a1~mv2.jpg/v1/fit/w_900,h_900,q_85/juice.jpg"
+  },
+  {
+    "file": "assets/images/pan-dulce.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_45a1f945db2542d3b1a5af8e48bfd494~mv2.jpg/v1/fit/w_900,h_900,q_85/pan-dulce.jpg"
+  },
+  {
+    "file": "assets/images/canned.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_b08312114597439684f6433c7a1ef589~mv2.jpg/v1/fit/w_1200,h_1200,q_85/canned.jpg"
+  },
+  {
+    "file": "assets/images/gather.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_a788d1129b544205b119fcde05d0493e~mv2.jpg/v1/fit/w_900,h_900,q_85/gather.jpg"
+  },
+  {
+    "file": "assets/images/event-portrait.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_71fa0219c98540ed8c36b1d9879e21c0~mv2.png/v1/fit/w_900,h_900,q_85/event-portrait.jpg"
+  },
+  {
+    "file": "assets/images/event-wide.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_4a6dc50cb82b4801accd46bbadb49831~mv2.jpg/v1/fit/w_1200,h_1200,q_85/event-wide.jpg"
+  },
+  {
+    "file": "assets/images/event-coffee.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_fb6b296664f640a492bcd035bd5d0c7e~mv2.jpg/v1/fit/w_1200,h_1200,q_85/event-coffee.jpg"
+  },
+  {
+    "file": "assets/images/avocado-toast.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_b7c82865650a4f3d8c7e2b8f7ae1dd1d~mv2.jpg/v1/fit/w_900,h_900,q_85/avocado-toast.jpg"
+  },
+  {
+    "file": "assets/images/chorizo-egg-bagel.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_39ddb107563f4d34a43047296909f50d~mv2.jpg/v1/fit/w_900,h_900,q_85/chorizo-egg-bagel.jpg"
+  },
+  {
+    "file": "assets/images/bacon-egg-cheese-bagel.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_77c6f88fd3004cf7a3cb97ea6d5be58b~mv2.jpg/v1/fit/w_900,h_900,q_85/bacon-egg-cheese-bagel.jpg"
+  },
+  {
+    "file": "assets/images/sausage-egg-cheese-bagel.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_abc6375ab74d480d91cf34ae6c7a8758~mv2.jpg/v1/fit/w_900,h_900,q_85/sausage-egg-cheese-bagel.jpg"
+  },
+  {
+    "file": "assets/images/torta-de-jam-n.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_67e0be398f69450596efc652e5fc16b6~mv2.jpg/v1/fit/w_900,h_900,q_85/torta-de-jam-n.jpg"
+  },
+  {
+    "file": "assets/images/club-sandwich.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_8fad032a43c14ca2abb496a45d5282fd~mv2.jpg/v1/fit/w_900,h_900,q_85/club-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/blt-sandwich.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_6e9e12759a134425abd3ab0aaa91a046~mv2.jpg/v1/fit/w_900,h_900,q_85/blt-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/grilled-cheese-sandwich.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_2aeb22ae4b8c491099a1eb8052e911e3~mv2.jpg/v1/fit/w_900,h_900,q_85/grilled-cheese-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/concha-gigante.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_3236db6074a446b7b72aed4f8f3434c5~mv2.jpg/v1/fit/w_900,h_900,q_85/concha-gigante.jpg"
+  },
+  {
+    "file": "assets/images/concha-sandwich.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_3c8d3a028dfc49e3878c68f0d220d38f~mv2.png/v1/fit/w_900,h_900,q_85/concha-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/concha-waffles.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_83e0a95f4dfe4c2c9259ed701af8fea4~mv2.jpg/v1/fit/w_900,h_900,q_85/concha-waffles.jpg"
+  },
+  {
+    "file": "assets/images/mini-concha-bag.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_0c6fe04736b64c348f3d6f8aba200611~mv2.jpg/v1/fit/w_900,h_900,q_85/mini-concha-bag.jpg"
+  },
+  {
+    "file": "assets/images/caramelo-latte.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_50b310f4ff5b4e53a917a25731bc45d5~mv2.jpg/v1/fit/w_900,h_900,q_85/caramelo-latte.jpg"
+  },
+  {
+    "file": "assets/images/horchata-latte.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_34d00f66ecba47d48a36bb4df35bee77~mv2.jpg/v1/fit/w_900,h_900,q_85/horchata-latte.jpg"
+  },
+  {
+    "file": "assets/images/mazapan-latte.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_ad3bfc14e8704ee2b59bb6b1b45f2ba3~mv2.jpg/v1/fit/w_900,h_900,q_85/mazapan-latte.jpg"
+  },
+  {
+    "file": "assets/images/choco-latte.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_7a4ff01037614768a36397ce6d99e749~mv2.jpg/v1/fit/w_900,h_900,q_85/choco-latte.jpg"
+  },
+  {
+    "file": "assets/images/taza-gigante.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_2e78a7de6943483180db9b6219fb8fd2~mv2.jpg/v1/fit/w_900,h_900,q_85/taza-gigante.jpg"
+  },
+  {
+    "file": "assets/images/americano.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_8861b3e2fb8a4ea0bece196f876e7bb5~mv2.jpg/v1/fit/w_900,h_900,q_85/americano.jpg"
+  },
+  {
+    "file": "assets/images/caf-de-olla.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_3eb93d69622442b9a3f6ff7cedb074c4~mv2.jpg/v1/fit/w_900,h_900,q_85/caf-de-olla.jpg"
+  },
+  {
+    "file": "assets/images/drip-caf.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_b57ed833f44c437e89045dcecb0c4eb4~mv2.png/v1/fit/w_900,h_900,q_85/drip-caf.jpg"
+  },
+  {
+    "file": "assets/images/latte.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_0c0a6dd80a3e4c068a943576529f1fba~mv2.jpg/v1/fit/w_900,h_900,q_85/latte.jpg"
+  },
+  {
+    "file": "assets/images/spanish-latte.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_e472f3917441467781fa471f3ffedd2e~mv2.jpg/v1/fit/w_900,h_900,q_85/spanish-latte.jpg"
+  },
+  {
+    "file": "assets/images/shaken-brown.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_7f2579bbda194dfba7bb7e9bbc6452e6~mv2.jpg/v1/fit/w_900,h_900,q_85/shaken-brown.jpg"
+  },
+  {
+    "file": "assets/images/white-mocha.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_11d59276e365425581b1f43596650e7d~mv2.jpg/v1/fit/w_900,h_900,q_85/white-mocha.jpg"
+  },
+  {
+    "file": "assets/images/choco-abuelita.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_d8cac147e02c49b48f2b005a33c015fb~mv2.jpg/v1/fit/w_900,h_900,q_85/choco-abuelita.jpg"
+  },
+  {
+    "file": "assets/images/matcha.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_35c2538ee07f435fbba48ba4db3f3c41~mv2.jpg/v1/fit/w_900,h_900,q_85/matcha.jpg"
+  },
+  {
+    "file": "assets/images/horchata-matcha.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_88799af0d43649eca026bbcd04184251~mv2.jpg/v1/fit/w_900,h_900,q_85/horchata-matcha.jpg"
+  },
+  {
+    "file": "assets/images/platano-matcha.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_25d4a13169b44f2f89a44830eaa7a8c9~mv2.jpg/v1/fit/w_900,h_900,q_85/platano-matcha.jpg"
+  },
+  {
+    "file": "assets/images/fresita-matcha.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_aaba7cae30964c15a3cf3553fecf87bb~mv2.jpg/v1/fit/w_900,h_900,q_85/fresita-matcha.jpg"
+  },
+  {
+    "file": "assets/images/tierra-matcha.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_dd1bca38ee4c4fcfbfec09df7f4d200d~mv2.jpg/v1/fit/w_900,h_900,q_85/tierra-matcha.jpg"
+  },
+  {
+    "file": "assets/images/chai.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_9cb66820b9da4be5b6ef4f5410bb5d58~mv2.jpg/v1/fit/w_900,h_900,q_85/chai.jpg"
+  },
+  {
+    "file": "assets/images/platano-chai.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_fb8f85c0536c4be3894cc923092dafc0~mv2.jpg/v1/fit/w_900,h_900,q_85/platano-chai.jpg"
+  },
+  {
+    "file": "assets/images/choco-chai.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_d9a7aa3bd8234e89a96f2b36888a96cf~mv2.jpg/v1/fit/w_900,h_900,q_85/choco-chai.jpg"
+  },
+  {
+    "file": "assets/images/tierra-chai.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_1a807a406da34a3885a5f5a7797d16bb~mv2.jpg/v1/fit/w_900,h_900,q_85/tierra-chai.jpg"
+  },
+  {
+    "file": "assets/images/nopal-power.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_9abd097b02ba412897df2fef88d0bcf1~mv2.jpg/v1/fit/w_900,h_900,q_85/nopal-power.jpg"
+  },
+  {
+    "file": "assets/images/la-ra-z.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_88fd83dc02ce40cb97e113ad64623a2c~mv2.jpg/v1/fit/w_900,h_900,q_85/la-ra-z.jpg"
+  },
+  {
+    "file": "assets/images/conejo-tropical.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_6285823124644afb9af64d4e7bd04b28~mv2.jpg/v1/fit/w_900,h_900,q_85/conejo-tropical.jpg"
+  },
+  {
+    "file": "assets/images/jamaica-glow.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_ef362540fcdc43c984100c2a343922f1~mv2.jpg/v1/fit/w_900,h_900,q_85/jamaica-glow.jpg"
+  },
+  {
+    "file": "assets/images/vampiro.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_394dabccc8124465b6ebc2d30a7e82e4~mv2.jpg/v1/fit/w_900,h_900,q_85/vampiro.jpg"
+  },
+  {
+    "file": "assets/images/rayo.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_87e7b343c04a4d82a0f73fa8a8fa8b8d~mv2.jpg/v1/fit/w_900,h_900,q_85/rayo.jpg"
+  },
+  {
+    "file": "assets/images/berry-rush.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_259ca1af1e624e15ba17c44d07b5e106~mv2.jpg/v1/fit/w_900,h_900,q_85/berry-rush.jpg"
+  },
+  {
+    "file": "assets/images/coco-loco.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_1537d239eb4e4791b4cf053e4d0bb9ab~mv2.jpg/v1/fit/w_900,h_900,q_85/coco-loco.jpg"
+  },
+  {
+    "file": "assets/images/coco-loco-sugar-free.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_c541de4a91654c1b8a76ff565616f1f8~mv2.jpg/v1/fit/w_900,h_900,q_85/coco-loco-sugar-free.jpg"
+  },
+  {
+    "file": "assets/images/powercito.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_c7b39739527f478a86c5f2ffacdbd5b5~mv2.jpg/v1/fit/w_900,h_900,q_85/powercito.jpg"
+  },
+  {
+    "file": "assets/images/hella-citrus.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_73241a47d50c4fe7b1fdc30f4c80f72f~mv2.jpg/v1/fit/w_900,h_900,q_85/hella-citrus.jpg"
+  },
+  {
+    "file": "assets/images/peachy-pilaz-sugar-free.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_c670a20e902e46328c70b32b3faf2869~mv2.jpg/v1/fit/w_900,h_900,q_85/peachy-pilaz-sugar-free.jpg"
+  },
+  {
+    "file": "assets/images/michelada.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_0be5d2af7a18414ca4f91a04fd35703a~mv2.jpg/v1/fit/w_900,h_900,q_85/michelada.jpg"
+  },
+  {
+    "file": "assets/images/gallery-1.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_0439e7a316f8453eb995e1932253e651~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-2.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_1524a29662db489ab40885bf8d31aa13~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-3.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_1e33b39a65964e7c8f8d94ea91843179~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-4.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_298bbada3b354ab0bdc9e411a147d886~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-5.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_4047f752a06849619efc8116841a1fe5~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-6.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_4346aad7b9de4590b22d9d74fca57cc4~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-7.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_5d6fee0c725a4a7b924ec3de74304a7c~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-8.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_6f3d9d980f834f568d5d83f9d7cb74cf~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-9.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_8da0e76b908d49198492ee033b7949f3~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-10.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_93bf8b786cf84ff0afcbd3d139c33ea9~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-11.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_9b3b3e50c9154759a28e889e5671b379~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-12.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_b7176151293e482480fd6e238368df48~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-13.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_ec1d7d75ef15468c82c32b59f77e322c~mv2.jpg"
+  },
+  {
+    "file": "assets/images/gallery-14.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_fb68b994f741468f9e975ee5fbb481af~mv2.jpg"
+  },
+  {
+    "file": "assets/images/avocado-toast-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_b7c82865650a4f3d8c7e2b8f7ae1dd1d~mv2.jpg/v1/fit/w_900,h_900,q_85/avocado-toast.jpg"
+  },
+  {
+    "file": "assets/images/chorizo-egg-bagel-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_39ddb107563f4d34a43047296909f50d~mv2.jpg/v1/fit/w_900,h_900,q_85/chorizo-egg-bagel.jpg"
+  },
+  {
+    "file": "assets/images/bacon-egg-cheese-bagel-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_77c6f88fd3004cf7a3cb97ea6d5be58b~mv2.jpg/v1/fit/w_900,h_900,q_85/bacon-egg-cheese-bagel.jpg"
+  },
+  {
+    "file": "assets/images/sausage-egg-cheese-bagel-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_abc6375ab74d480d91cf34ae6c7a8758~mv2.jpg/v1/fit/w_900,h_900,q_85/sausage-egg-cheese-bagel.jpg"
+  },
+  {
+    "file": "assets/images/torta-de-jam-n-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_67e0be398f69450596efc652e5fc16b6~mv2.jpg/v1/fit/w_900,h_900,q_85/torta-de-jam-n.jpg"
+  },
+  {
+    "file": "assets/images/club-sandwich-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_8fad032a43c14ca2abb496a45d5282fd~mv2.jpg/v1/fit/w_900,h_900,q_85/club-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/blt-sandwich-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_6e9e12759a134425abd3ab0aaa91a046~mv2.jpg/v1/fit/w_900,h_900,q_85/blt-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/grilled-cheese-sandwich-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_2aeb22ae4b8c491099a1eb8052e911e3~mv2.jpg/v1/fit/w_900,h_900,q_85/grilled-cheese-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/concha-gigante-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_3236db6074a446b7b72aed4f8f3434c5~mv2.jpg/v1/fit/w_900,h_900,q_85/concha-gigante.jpg"
+  },
+  {
+    "file": "assets/images/concha-sandwich-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_3c8d3a028dfc49e3878c68f0d220d38f~mv2.png/v1/fit/w_900,h_900,q_85/concha-sandwich.jpg"
+  },
+  {
+    "file": "assets/images/concha-waffles-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_83e0a95f4dfe4c2c9259ed701af8fea4~mv2.jpg/v1/fit/w_900,h_900,q_85/concha-waffles.jpg"
+  },
+  {
+    "file": "assets/images/mini-concha-bag-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_0c6fe04736b64c348f3d6f8aba200611~mv2.jpg/v1/fit/w_900,h_900,q_85/mini-concha-bag.jpg"
+  },
+  {
+    "file": "assets/images/caramelo-latte-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_50b310f4ff5b4e53a917a25731bc45d5~mv2.jpg/v1/fit/w_900,h_900,q_85/caramelo-latte.jpg"
+  },
+  {
+    "file": "assets/images/horchata-latte-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_34d00f66ecba47d48a36bb4df35bee77~mv2.jpg/v1/fit/w_900,h_900,q_85/horchata-latte.jpg"
+  },
+  {
+    "file": "assets/images/mazapan-latte-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_ad3bfc14e8704ee2b59bb6b1b45f2ba3~mv2.jpg/v1/fit/w_900,h_900,q_85/mazapan-latte.jpg"
+  },
+  {
+    "file": "assets/images/choco-latte-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_7a4ff01037614768a36397ce6d99e749~mv2.jpg/v1/fit/w_900,h_900,q_85/choco-latte.jpg"
+  },
+  {
+    "file": "assets/images/taza-gigante-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_2e78a7de6943483180db9b6219fb8fd2~mv2.jpg/v1/fit/w_900,h_900,q_85/taza-gigante.jpg"
+  },
+  {
+    "file": "assets/images/americano-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_8861b3e2fb8a4ea0bece196f876e7bb5~mv2.jpg/v1/fit/w_900,h_900,q_85/americano.jpg"
+  },
+  {
+    "file": "assets/images/caf-de-olla-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_3eb93d69622442b9a3f6ff7cedb074c4~mv2.jpg/v1/fit/w_900,h_900,q_85/caf-de-olla.jpg"
+  },
+  {
+    "file": "assets/images/drip-caf-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_b57ed833f44c437e89045dcecb0c4eb4~mv2.png/v1/fit/w_900,h_900,q_85/drip-caf.jpg"
+  },
+  {
+    "file": "assets/images/latte-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_0c0a6dd80a3e4c068a943576529f1fba~mv2.jpg/v1/fit/w_900,h_900,q_85/latte.jpg"
+  },
+  {
+    "file": "assets/images/spanish-latte-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_e472f3917441467781fa471f3ffedd2e~mv2.jpg/v1/fit/w_900,h_900,q_85/spanish-latte.jpg"
+  },
+  {
+    "file": "assets/images/shaken-brown-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_7f2579bbda194dfba7bb7e9bbc6452e6~mv2.jpg/v1/fit/w_900,h_900,q_85/shaken-brown.jpg"
+  },
+  {
+    "file": "assets/images/white-mocha-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_11d59276e365425581b1f43596650e7d~mv2.jpg/v1/fit/w_900,h_900,q_85/white-mocha.jpg"
+  },
+  {
+    "file": "assets/images/choco-abuelita-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_d8cac147e02c49b48f2b005a33c015fb~mv2.jpg/v1/fit/w_900,h_900,q_85/choco-abuelita.jpg"
+  },
+  {
+    "file": "assets/images/matcha-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_35c2538ee07f435fbba48ba4db3f3c41~mv2.jpg/v1/fit/w_900,h_900,q_85/matcha.jpg"
+  },
+  {
+    "file": "assets/images/horchata-matcha-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_88799af0d43649eca026bbcd04184251~mv2.jpg/v1/fit/w_900,h_900,q_85/horchata-matcha.jpg"
+  },
+  {
+    "file": "assets/images/platano-matcha-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_25d4a13169b44f2f89a44830eaa7a8c9~mv2.jpg/v1/fit/w_900,h_900,q_85/platano-matcha.jpg"
+  },
+  {
+    "file": "assets/images/fresita-matcha-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_aaba7cae30964c15a3cf3553fecf87bb~mv2.jpg/v1/fit/w_900,h_900,q_85/fresita-matcha.jpg"
+  },
+  {
+    "file": "assets/images/tierra-matcha-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_dd1bca38ee4c4fcfbfec09df7f4d200d~mv2.jpg/v1/fit/w_900,h_900,q_85/tierra-matcha.jpg"
+  },
+  {
+    "file": "assets/images/chai-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_9cb66820b9da4be5b6ef4f5410bb5d58~mv2.jpg/v1/fit/w_900,h_900,q_85/chai.jpg"
+  },
+  {
+    "file": "assets/images/platano-chai-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_fb8f85c0536c4be3894cc923092dafc0~mv2.jpg/v1/fit/w_900,h_900,q_85/platano-chai.jpg"
+  },
+  {
+    "file": "assets/images/choco-chai-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_d9a7aa3bd8234e89a96f2b36888a96cf~mv2.jpg/v1/fit/w_900,h_900,q_85/choco-chai.jpg"
+  },
+  {
+    "file": "assets/images/tierra-chai-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_1a807a406da34a3885a5f5a7797d16bb~mv2.jpg/v1/fit/w_900,h_900,q_85/tierra-chai.jpg"
+  },
+  {
+    "file": "assets/images/nopal-power-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_9abd097b02ba412897df2fef88d0bcf1~mv2.jpg/v1/fit/w_900,h_900,q_85/nopal-power.jpg"
+  },
+  {
+    "file": "assets/images/la-ra-z-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_88fd83dc02ce40cb97e113ad64623a2c~mv2.jpg/v1/fit/w_900,h_900,q_85/la-ra-z.jpg"
+  },
+  {
+    "file": "assets/images/conejo-tropical-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_6285823124644afb9af64d4e7bd04b28~mv2.jpg/v1/fit/w_900,h_900,q_85/conejo-tropical.jpg"
+  },
+  {
+    "file": "assets/images/jamaica-glow-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_ef362540fcdc43c984100c2a343922f1~mv2.jpg/v1/fit/w_900,h_900,q_85/jamaica-glow.jpg"
+  },
+  {
+    "file": "assets/images/vampiro-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_394dabccc8124465b6ebc2d30a7e82e4~mv2.jpg/v1/fit/w_900,h_900,q_85/vampiro.jpg"
+  },
+  {
+    "file": "assets/images/rayo-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_87e7b343c04a4d82a0f73fa8a8fa8b8d~mv2.jpg/v1/fit/w_900,h_900,q_85/rayo.jpg"
+  },
+  {
+    "file": "assets/images/berry-rush-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_259ca1af1e624e15ba17c44d07b5e106~mv2.jpg/v1/fit/w_900,h_900,q_85/berry-rush.jpg"
+  },
+  {
+    "file": "assets/images/coco-loco-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_1537d239eb4e4791b4cf053e4d0bb9ab~mv2.jpg/v1/fit/w_900,h_900,q_85/coco-loco.jpg"
+  },
+  {
+    "file": "assets/images/coco-loco-sugar-free-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_c541de4a91654c1b8a76ff565616f1f8~mv2.jpg/v1/fit/w_900,h_900,q_85/coco-loco-sugar-free.jpg"
+  },
+  {
+    "file": "assets/images/powercito-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_c7b39739527f478a86c5f2ffacdbd5b5~mv2.jpg/v1/fit/w_900,h_900,q_85/powercito.jpg"
+  },
+  {
+    "file": "assets/images/hella-citrus-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_73241a47d50c4fe7b1fdc30f4c80f72f~mv2.jpg/v1/fit/w_900,h_900,q_85/hella-citrus.jpg"
+  },
+  {
+    "file": "assets/images/peachy-pilaz-sugar-free-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_c670a20e902e46328c70b32b3faf2869~mv2.jpg/v1/fit/w_900,h_900,q_85/peachy-pilaz-sugar-free.jpg"
+  },
+  {
+    "file": "assets/images/michelada-thumb.webp",
+    "source": "https://static.wixstatic.com/media/4ffd46_0be5d2af7a18414ca4f91a04fd35703a~mv2.jpg/v1/fit/w_900,h_900,q_85/michelada.jpg"
+  }
+]

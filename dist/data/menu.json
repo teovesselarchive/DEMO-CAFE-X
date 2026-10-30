@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Food",
+    "items": [
+      {
+        "name": "Avocado Toast",
+        "description": "Toasted sourdough topped with creamy avocado spread, olive oil, cracked black pepper, chili flakes, and fresh micro cilantro",
+        "price": "$4.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_b7c82865650a4f3d8c7e2b8f7ae1dd1d~mv2.webp",
+        "image": "avocado-toast.webp"
+      },
+      {
+        "name": "Chorizo & Egg Bagel",
+        "description": "A toasted jalapeño bagel stacked with spicy mayo, savory chorizo, egg, and fresh avocado",
+        "price": "$3.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_39ddb107563f4d34a43047296909f50d~mv2.webp",
+        "image": "chorizo-egg-bagel.webp"
+      },
+      {
+        "name": "Bacon, Egg, & Cheese Bagel",
+        "description": "Classic breakfast bagel with crispy bacon, egg, melted American cheese, and a touch of spicy mayo",
+        "price": "$4.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_77c6f88fd3004cf7a3cb97ea6d5be58b~mv2.webp",
+        "image": "bacon-egg-cheese-bagel.webp"
+      },
+      {
+        "name": "Sausage, Egg, & Cheese Bagel",
+        "description": "Toasted bagel layered with turkey sausage, egg, American cheese, and spicy mayo for a satisfying breakfast bite",
+        "price": "$4.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_abc6375ab74d480d91cf34ae6c7a8758~mv2.webp",
+        "image": "sausage-egg-cheese-bagel.webp"
+      },
+      {
+        "name": "Torta de Jamón",
+        "description": "A classic Mexican torta on soft telera bread layered with ham, queso fresco, pepper jack cheese, avocado, tomato, onion, jalapeños, lettuce, and creamy mayo",
+        "price": "$15.99",
+        "source": "https://static.wixstatic.com/media/4ffd46_67e0be398f69450596efc652e5fc16b6~mv2.webp",
+        "image": "torta-de-jam-n.webp"
+      },
+      {
+        "name": "Club Sandwich",
+        "description": "A hearty stacked sandwich on toasted sourdough with ham, turkey, crispy bacon, fresh lettuce, tomato, onion, and melted American and pepper jack cheeses",
+        "price": "$14.99",
+        "source": "https://static.wixstatic.com/media/4ffd46_8fad032a43c14ca2abb496a45d5282fd~mv2.webp",
+        "image": "club-sandwich.webp"
+      },
+      {
+        "name": "BLT Sandwich",
+        "description": "Crispy bacon layered with fresh lettuce and tomato on toasted sourdough with a light spread of mayo",
+        "price": "$11.99",
+        "source": "https://static.wixstatic.com/media/4ffd46_6e9e12759a134425abd3ab0aaa91a046~mv2.webp",
+        "image": "blt-sandwich.webp"
+      },
+      {
+        "name": "Grilled Cheese Sandwich",
+        "description": "Golden toasted telera bread (sandwich roll) filled with a melty blend of pepper jack, American, and Oaxaca cheese",
+        "price": "$10.99",
+        "source": "https://static.wixstatic.com/media/4ffd46_2aeb22ae4b8c491099a1eb8052e911e3~mv2.webp",
+        "image": "grilled-cheese-sandwich.webp"
+      }
+    ],
+    "description": "Savory bites inspired by the rich and comforting flavors of Mexico, made fresh to enjoy any time of day"
+  },
+  {
+    "name": "Panadería",
+    "items": [
+      {
+        "name": "Concha Gigante",
+        "description": "Our oversized signature concha ,  perfect for sharing or indulging",
+        "price": "$8.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_3236db6074a446b7b72aed4f8f3434c5~mv2.webp",
+        "image": "concha-gigante.webp"
+      },
+      {
+        "name": "Chocoflan",
+        "description": "The ultimate Mexican dessert; rich chocolate cake topped with creamy caramel flan and a sweet cajeta (Mexican caramel) drizzle",
+        "price": "$8.00"
+      },
+      {
+        "name": "Concha Sandwich",
+        "description": "A sweet Mexican concha filled with your choice of ice cream, topped with drizzle and colorful sprinkles",
+        "price": "$6.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_3c8d3a028dfc49e3878c68f0d220d38f~mv2.png",
+        "image": "concha-sandwich.webp"
+      },
+      {
+        "name": "Concha Waffles",
+        "description": "Two concha waffles topped with whipped cream, chocolate and cajeta (Mexican caramel) drizzle, and fresh sliced strawberries and bananas",
+        "price": "$7.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_83e0a95f4dfe4c2c9259ed701af8fea4~mv2.webp",
+        "image": "concha-waffles.webp"
+      },
+      {
+        "name": "Mini Concha Bag",
+        "description": "Bag filled with 6 mini conchas",
+        "price": "$8.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_0c6fe04736b64c348f3d6f8aba200611~mv2.webp",
+        "image": "mini-concha-bag.webp"
+      },
+      {
+        "name": "Regular Concha",
+        "description": "Traditional Mexican bread",
+        "price": "$3.25"
+      },
+      {
+        "name": "Chocolate Croissant",
+        "description": "Golden, flaky layers wrapped around melted chocolate, simple, classic, indulgent",
+        "price": "$7.00"
+      },
+      {
+        "name": "Almond Croissant",
+        "description": "Buttery, flaky croissant filled with rich almond cream and topped with toasted almonds",
+        "price": "$7.00"
+      },
+      {
+        "name": "Pan Con Queso",
+        "description": "Savory cheese, jalapeños and ham",
+        "price": "$3.25"
+      },
+      {
+        "name": "Cuernito",
+        "description": "Classic Mexican-style croissant, light, airy, and perfectly golden",
+        "price": "$2.50"
+      },
+      {
+        "name": "Tortuga",
+        "description": "A delightful Mexican sweet treat featuring chocolate, caramel, and nuts, creating a rich and satisfying dessert experience",
+        "price": "$3.25"
+      },
+      {
+        "name": "Manteconcha",
+        "description": "Soft, buttery concha filled with rich mantequilla, sweet, fluffy, and comforting",
+        "price": "$3.00"
+      },
+      {
+        "name": "Puerquito",
+        "description": "Traditional gingerbread-style cookie with warm spices and a soft bite, nostalgic and dulce",
+        "price": "$5.00"
+      }
+    ],
+    "description": "A selection of traditional Mexican pastries, baked to bring warmth and sweetness to every visit"
+  },
+  {
+    "name": "Café",
+    "items": [
+      {
+        "name": "Caramelo Latte*",
+        "description": "Espresso with creamy milk and rich dulce de leche sweetness",
+        "price": "$7.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_50b310f4ff5b4e53a917a25731bc45d5~mv2.webp",
+        "image": "caramelo-latte.webp"
+      },
+      {
+        "name": "Horchata Latte*",
+        "description": "Smooth espresso blended with our signature house horchata",
+        "price": "$6.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_34d00f66ecba47d48a36bb4df35bee77~mv2.webp",
+        "image": "horchata-latte.webp"
+      },
+      {
+        "name": "Mazapan Latte*",
+        "description": "A sweet and nutty latte inspired by the beloved Mexican peanut candy",
+        "price": "$5.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_ad3bfc14e8704ee2b59bb6b1b45f2ba3~mv2.webp",
+        "image": "mazapan-latte.webp"
+      },
+      {
+        "name": "Choco-Latte*",
+        "description": "Espresso mixed with rich Abuelita chocolate for a bold mocha-style drink",
+        "price": "$6.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_7a4ff01037614768a36397ce6d99e749~mv2.webp",
+        "image": "choco-latte.webp"
+      },
+      {
+        "name": "Agave Latte",
+        "description": "Espresso sweetened naturally with 100% organic agave nectar and steamed milk",
+        "price": "$10.50"
+      },
+      {
+        "name": "Taza Gigante",
+        "description": "Our oversized CAFÉX specialty coffee or hot chocolate meant for sharing (or for serious coffee lovers)",
+        "price": "$5.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_2e78a7de6943483180db9b6219fb8fd2~mv2.webp",
+        "image": "taza-gigante.webp"
+      },
+      {
+        "name": "Americano",
+        "description": "Rich espresso diluted with hot water for a smooth, bold, and classic coffee flavor",
+        "price": "$5.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_8861b3e2fb8a4ea0bece196f876e7bb5~mv2.webp",
+        "image": "americano.webp"
+      },
+      {
+        "name": "Cappuccino",
+        "description": "Perfectly balanced espresso, steamed milk, and velvety foam for a light yet creamy coffee"
+      },
+      {
+        "name": "Café de Olla",
+        "description": "Traditional Mexican spiced coffee brewed with cinnamon and piloncillo for a warm, aromatic sweetness",
+        "price": "$5.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_3eb93d69622442b9a3f6ff7cedb074c4~mv2.webp",
+        "image": "caf-de-olla.webp"
+      },
+      {
+        "name": "Drip Café",
+        "description": "Freshly brewed classic coffee, smooth and comforting with deep roasted flavor",
+        "price": "$4.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_b57ed833f44c437e89045dcecb0c4eb4~mv2.png",
+        "image": "drip-caf.webp"
+      },
+      {
+        "name": "Latte",
+        "description": "Espresso combined with silky steamed milk for a smooth, creamy everyday favorite",
+        "price": "$5.95",
+        "source": "https://static.wixstatic.com/media/4ffd46_0c0a6dd80a3e4c068a943576529f1fba~mv2.webp",
+        "image": "latte.webp"
+      },
+      {
+        "name": "Spanish Latte",
+        "description": "Espresso with steamed milk and sweet condensed milk for a rich, sweet, and velvety coffee",
+        "price": "$7.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_e472f3917441467781fa471f3ffedd2e~mv2.webp",
+        "image": "spanish-latte.webp"
+      },
+      {
+        "name": "Shaken Brown",
+        "description": "Espresso shaken with brown sugar and ice for a bold, lightly sweet, refreshing coffee",
+        "price": "$6.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_7f2579bbda194dfba7bb7e9bbc6452e6~mv2.webp",
+        "image": "shaken-brown.webp"
+      },
+      {
+        "name": "White Mocha",
+        "description": "Espresso blended with creamy white chocolate and milk for a smooth, dessert-like coffee",
+        "price": "$5.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_11d59276e365425581b1f43596650e7d~mv2.webp",
+        "image": "white-mocha.webp"
+      },
+      {
+        "name": "Choco Abuelita",
+        "description": "Mexican hot chocolate inspired by Abuelita, rich with cinnamon and chocolate spice",
+        "price": "$6.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_d8cac147e02c49b48f2b005a33c015fb~mv2.webp",
+        "image": "choco-abuelita.webp"
+      },
+      {
+        "name": "Matcha",
+        "description": "Matcha whisked with milk for a smooth, earthy, and energizing drink",
+        "price": "$7.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_35c2538ee07f435fbba48ba4db3f3c41~mv2.webp",
+        "image": "matcha.webp"
+      },
+      {
+        "name": "Horchata Matcha",
+        "description": "Matcha blended with creamy house horchata",
+        "price": "$6.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_88799af0d43649eca026bbcd04184251~mv2.webp",
+        "image": "horchata-matcha.webp"
+      },
+      {
+        "name": "Platano Matcha",
+        "description": "Matcha combined with sweet banana for a tropical, energizing twist",
+        "price": "$10.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_25d4a13169b44f2f89a44830eaa7a8c9~mv2.webp",
+        "image": "platano-matcha.webp"
+      },
+      {
+        "name": "Fresita Matcha",
+        "description": "Matcha layered with strawberry for a bright, refreshing flavor combination",
+        "price": "$5.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_aaba7cae30964c15a3cf3553fecf87bb~mv2.webp",
+        "image": "fresita-matcha.webp"
+      },
+      {
+        "name": "Tierra Matcha",
+        "description": "Matcha infused with espresso for a deep, bold flavor",
+        "price": "$7.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_dd1bca38ee4c4fcfbfec09df7f4d200d~mv2.webp",
+        "image": "tierra-matcha.webp"
+      },
+      {
+        "name": "Chai",
+        "description": "Spiced black tea with warm notes of cinnamon, cardamom, and clove",
+        "price": "$6.95",
+        "source": "https://static.wixstatic.com/media/4ffd46_9cb66820b9da4be5b6ef4f5410bb5d58~mv2.webp",
+        "image": "chai.webp"
+      },
+      {
+        "name": "Platano Chai",
+        "description": "Classic chai with sweet banana for a smooth tropical spice blend",
+        "price": "$7.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_fb8f85c0536c4be3894cc923092dafc0~mv2.webp",
+        "image": "platano-chai.webp"
+      },
+      {
+        "name": "Choco Chai",
+        "description": "Chai tea combined with chocolate for a cozy dessert-style drink",
+        "price": "$7.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_d9a7aa3bd8234e89a96f2b36888a96cf~mv2.webp",
+        "image": "choco-chai.webp"
+      },
+      {
+        "name": "Tierra Chai",
+        "description": "Chai with espresso for a bold spiced flavor",
+        "price": "$8.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_1a807a406da34a3885a5f5a7797d16bb~mv2.webp",
+        "image": "tierra-chai.webp"
+      },
+      {
+        "name": "Herb Tea",
+        "description": "A calming herbal infusion perfect for a soothing and caffeine-free option"
+      }
+    ],
+    "description": "Coffee sourced from Mexico and brewed with intention, honoring the richness of its origins; Enjoy it your way - hot, iced, or blended* - crafted to match every moment"
+  },
+  {
+    "name": "Jugos",
+    "items": [
+      {
+        "name": "Nopal Power",
+        "description": "A refreshing green juice packed with nopal cactus, crisp apple, cucumber, lime, and ginger for a vibrant and energizing boost",
+        "price": "$3.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_9abd097b02ba412897df2fef88d0bcf1~mv2.webp",
+        "image": "nopal-power.webp"
+      },
+      {
+        "name": "La Raíz",
+        "description": "A bold and earthy blend of apple, beets, carrots, orange, and ginger packed with natural sweetness and nutrients",
+        "price": "$4.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_88fd83dc02ce40cb97e113ad64623a2c~mv2.webp",
+        "image": "la-ra-z.webp"
+      },
+      {
+        "name": "Piña Loca",
+        "description": "A tropical refresher made with pineapple, coconut, and celery for a light and hydrating juice",
+        "price": "$1.50"
+      },
+      {
+        "name": "Conejo Tropical",
+        "description": "Bright and naturally sweet juice made with carrot, orange, mango, and coconut for a smooth tropical flavor",
+        "price": "$2.50",
+        "source": "https://static.wixstatic.com/media/4ffd46_6285823124644afb9af64d4e7bd04b28~mv2.webp",
+        "image": "conejo-tropical.webp"
+      },
+      {
+        "name": "Berry Good",
+        "description": "A fruity blend of strawberry, apple, and orange for a refreshing and naturally sweet juice",
+        "price": "$1.50"
+      },
+      {
+        "name": "Jamaica Glow",
+        "description": "A vibrant hibiscus juice blended with strawberry and mango for a floral, slightly tart tropical refreshment",
+        "price": "$2.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_ef362540fcdc43c984100c2a343922f1~mv2.webp",
+        "image": "jamaica-glow.webp"
+      },
+      {
+        "name": "Build Your Own Juice",
+        "description": "Create your own fresh juice by choosing up to three fruits or vegetables from our selection of bases and secondary ingredients",
+        "price": "$10.99"
+      }
+    ],
+    "description": "Freshly pressed juices made from vibrant fruits for a naturally refreshing experience"
+  },
+  {
+    "name": "Aguas Frescas",
+    "items": [
+      {
+        "name": "Melón",
+        "description": "Refreshing cantaloupe agua fresca, naturally sweet and ultra-hydrating",
+        "price": "$6.00"
+      },
+      {
+        "name": "Jamaica",
+        "description": "Bold hibiscus infusion with a tangy, floral kick, light, vibrant, and refreshing",
+        "price": "$6.00"
+      },
+      {
+        "name": "Piña",
+        "description": "Fresh pineapple agua fresca, bright, tropical, and perfectly sweet",
+        "price": "$6.00"
+      },
+      {
+        "name": "Pepino",
+        "description": "Cool cucumber agua fresca with a crisp, clean finish, refreshment at its finest",
+        "price": "$6.00"
+      },
+      {
+        "name": "Horchata",
+        "description": "House-made horchata with rice, cinnamon, and vanilla, smooth, creamy, y clásica",
+        "price": "$5.00"
+      }
+    ],
+    "description": "Refreshing traditional fruit drinks made with real ingredients, inspired by the vibrant flavors of Mexico"
+  },
+  {
+    "name": "Shakes/Blended",
+    "items": [
+      {
+        "name": "Chocomil Shake",
+        "description": "A nostalgic Mexican chocolate milkshake made with Pancho Pantera chocolate and creamy milk",
+        "price": "$8.99"
+      },
+      {
+        "name": "Choco-Banana Shake",
+        "description": "A rich and creamy shake blended with Pancho Pantera chocolate, fresh bananas, and milk",
+        "price": "$8.99"
+      },
+      {
+        "name": "Choco-Fresa Shake",
+        "description": "A rich and creamy shake blended with Pancho Pantera chocolate, fresh strawberries and bananas, milk",
+        "price": "$8.99"
+      },
+      {
+        "name": "Mangonada",
+        "description": "Sweet mango blended to perfection, layered with chamoy, Tajín, and limón, sweet, spicy, and addictive",
+        "price": "$7.99"
+      }
+    ],
+    "description": "From creamy shakes to classic Mexican sodas and energizing drinks, something for every mood"
+  },
+  {
+    "name": "Energy",
+    "items": [
+      {
+        "name": "Vampiro",
+        "description": "A bold tropical energy blend with mango purée, passionfruit, and pomegranate for a sweet and tangy kick",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_394dabccc8124465b6ebc2d30a7e82e4~mv2.webp",
+        "image": "vampiro.webp"
+      },
+      {
+        "name": "Rayo",
+        "description": "Electric blue raspberry mixed with fresh lime for a bright and refreshing citrus energy boost",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_87e7b343c04a4d82a0f73fa8a8fa8b8d~mv2.webp",
+        "image": "rayo.webp"
+      },
+      {
+        "name": "Berry Rush",
+        "description": "A powerful berry fusion of strawberry, raspberry, blue raspberry, and lime for a vibrant and fruity energy drink",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_259ca1af1e624e15ba17c44d07b5e106~mv2.webp",
+        "image": "berry-rush.webp"
+      },
+      {
+        "name": "Coco Loco",
+        "description": "A tropical blend of coconut, peach, and strawberry for a smooth and refreshing island-style energy drink",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_1537d239eb4e4791b4cf053e4d0bb9ab~mv2.webp",
+        "image": "coco-loco.webp"
+      },
+      {
+        "name": "Coco Loco Sugar Free",
+        "description": "A sugar-free version of our tropical favorite with coconut, peach, and strawberry flavors",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_c541de4a91654c1b8a76ff565616f1f8~mv2.webp",
+        "image": "coco-loco-sugar-free.webp"
+      },
+      {
+        "name": "Powercito",
+        "description": "A refreshing mix of passion fruit, watermelon, and lime for a light and energizing citrus burst",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_c7b39739527f478a86c5f2ffacdbd5b5~mv2.webp",
+        "image": "powercito.webp"
+      },
+      {
+        "name": "Hella Citrus",
+        "description": "A bold citrus explosion made with orange, pomegranate, and mango purée",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_73241a47d50c4fe7b1fdc30f4c80f72f~mv2.webp",
+        "image": "hella-citrus.webp"
+      },
+      {
+        "name": "Peachy Pilaz Sugar Free",
+        "description": "A sugar-free strawberry and peach energy drink with a smooth fruity finish",
+        "price": "$8.45",
+        "source": "https://static.wixstatic.com/media/4ffd46_c670a20e902e46328c70b32b3faf2869~mv2.webp",
+        "image": "peachy-pilaz-sugar-free.webp"
+      }
+    ],
+    "description": "Refreshing energy drinks crafted to keep you moving and energized throughout the day"
+  },
+  {
+    "name": "Alcohol/Beverages",
+    "items": [
+      {
+        "name": "Michelada",
+        "description": "A classic Mexican beer cocktail with lime, spices, and savory Michelada mix",
+        "price": "$5.00",
+        "source": "https://static.wixstatic.com/media/4ffd46_0be5d2af7a18414ca4f91a04fd35703a~mv2.webp",
+        "image": "michelada.webp"
+      },
+      {
+        "name": "Mexican Beer",
+        "description": "A selection of popular Mexican beers served cold",
+        "price": "$4.00"
+      },
+      {
+        "name": "Cubeta",
+        "description": "A bucket of chilled beers perfect for sharing with friends",
+        "price": "$15.99"
+      },
+      {
+        "name": "Mexican Soda",
+        "description": "A refreshing selection of classic Mexican sodas made with real cane sugar",
+        "price": "$6.99"
+      },
+      {
+        "name": "Red Bull",
+        "description": "The classic energy drink served chilled",
+        "price": "$5.99"
+      },
+      {
+        "name": "Red Bull Sugar Free",
+        "description": "All the energy with zero sugar",
+        "price": "$5.99"
+      }
+    ],
+    "description": "Classic favorites including Micheladas, bottled beers, wine, and more"
+  }
+]

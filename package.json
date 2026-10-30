@@ -1,0 +1,11 @@
+{
+  "name": "vessel-archive-cafe-x-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CAFÉX redesign concept by Vessel Archive",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "check": "python3 scripts/check.py",
+    "dev": "python3 -m http.server 8080 --directory dist"
+  }
+}
